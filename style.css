@@ -1,0 +1,42 @@
+body {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.header {
+
+}
+
+.topnav {
+    grid-column-start: span 4;
+}
+
+.navigation {
+    list-style: none;
+    margin: auto;
+    display: flex;
+
+}
+
+ li {
+     padding: 0px 12px 0px 12px;
+ }
+
+.pright {
+    margin-left: auto;
+}
+
+.blue-gradient {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7abcff+0,60abf8+44,4096ee+100;Blue+3D+%2314 */
+background: #7abcff; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.rose {
+    background-color: #ffe4e1;
+}
